@@ -5125,52 +5125,57 @@ button,
 }
 
 .popup-partner--thanks .custom-textarea textarea::-webkit-input-placeholder {
-  color: rgb(209, 209, 209);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  color: #C3CAD4;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .popup-partner--thanks .custom-textarea textarea::-moz-placeholder {
-  color: rgb(209, 209, 209);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  color: #C3CAD4;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .popup-partner--thanks .custom-textarea textarea:-ms-input-placeholder {
-  color: rgb(209, 209, 209);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  color: #C3CAD4;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .popup-partner--thanks .custom-textarea textarea::-ms-input-placeholder {
-  color: rgb(209, 209, 209);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  color: #C3CAD4;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .popup-partner--thanks .custom-textarea textarea::placeholder {
-  color: rgb(209, 209, 209);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  color: #C3CAD4;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .popup-partner--thanks .custom-textarea textarea {
-  height: 130px;
+  height: 150px;
 }
 
 .popup-partner--thanks .custom-textarea label {
@@ -5222,14 +5227,6 @@ button,
     transform: rotate(180deg);
   }
 
-  .main-nav__item.menu-item-has-children.focus-visible:focus .main-nav__link {
-    /*svg {
-      color: rgb(24, 44, 143);
-
-      transform: rotate(180deg);
-    }*/
-  }
-
   .main-nav__item.menu-item-has-children.focus-visible:focus .main-nav__link::after {
     content: "";
   }
@@ -5241,14 +5238,6 @@ button,
 }
 
 @media (min-width: 1023px) and (hover: hover) {
-  .main-nav__item.menu-item-has-children:hover:not(.focus-visible) .main-nav__link {
-    /*svg {
-      color: rgb(24, 44, 143);
-
-      transform: rotate(180deg);
-    }*/
-  }
-
   .main-nav__item.menu-item-has-children:hover:not(.focus-visible) .main-nav__link::after {
     content: "";
   }
@@ -5937,6 +5926,30 @@ button,
 
   .popup-partner--thanks .custom-input input::placeholder {
     font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea::placeholder {
+    font-size: 16px;
+  }
+
+  .popup-partner--thanks .custom-textarea textarea {
+    padding: 10px;
   }
 
   .popup-partner--thanks .popup__title {
